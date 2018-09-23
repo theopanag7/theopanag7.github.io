@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Software Engineer - M.S. Georgia Tech</description>
     <link>
-    http://localhost:4000</link>
+    </link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/hello</link>
-        <guid isPermaLink="true">http://localhost:4000/hello</guid>
+        /hello</link>
+        <guid isPermaLink="true">/hello</guid>
       </item>
       
     
@@ -31,8 +31,8 @@
         
         <pubDate>Mon, 20 Aug 2018 00:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/head-ta</link>
-        <guid isPermaLink="true">http://localhost:4000/head-ta</guid>
+        /head-ta</link>
+        <guid isPermaLink="true">/head-ta</guid>
       </item>
       
     
@@ -46,8 +46,8 @@
         
         <pubDate>Mon, 14 May 2018 05:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/amway</link>
-        <guid isPermaLink="true">http://localhost:4000/amway</guid>
+        /amway</link>
+        <guid isPermaLink="true">/amway</guid>
       </item>
       
     
@@ -62,8 +62,8 @@
         
         <pubDate>Fri, 11 May 2018 01:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/hud-rfid</link>
-        <guid isPermaLink="true">http://localhost:4000/hud-rfid</guid>
+        /hud-rfid</link>
+        <guid isPermaLink="true">/hud-rfid</guid>
       </item>
       
     
@@ -77,8 +77,8 @@
         
         <pubDate>Wed, 06 Dec 2017 05:00:00 -0500</pubDate>
         <link>
-        http://localhost:4000/3d-lattice</link>
-        <guid isPermaLink="true">http://localhost:4000/3d-lattice</guid>
+        /3d-lattice</link>
+        <guid isPermaLink="true">/3d-lattice</guid>
       </item>
       
     
@@ -92,8 +92,8 @@
         
         <pubDate>Fri, 13 Oct 2017 06:18:00 -0400</pubDate>
         <link>
-        http://localhost:4000/hack-gt</link>
-        <guid isPermaLink="true">http://localhost:4000/hack-gt</guid>
+        /hack-gt</link>
+        <guid isPermaLink="true">/hack-gt</guid>
       </item>
       
     
@@ -107,8 +107,8 @@
         
         <pubDate>Mon, 14 Aug 2017 06:18:00 -0400</pubDate>
         <link>
-        http://localhost:4000/georgia-tech</link>
-        <guid isPermaLink="true">http://localhost:4000/georgia-tech</guid>
+        /georgia-tech</link>
+        <guid isPermaLink="true">/georgia-tech</guid>
       </item>
       
     
@@ -121,8 +121,8 @@
         
         <pubDate>Mon, 14 Aug 2017 03:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/arrival-USA</link>
-        <guid isPermaLink="true">http://localhost:4000/arrival-USA</guid>
+        /arrival-USA</link>
+        <guid isPermaLink="true">/arrival-USA</guid>
       </item>
       
     
@@ -136,8 +136,8 @@
         
         <pubDate>Mon, 07 Nov 2016 05:18:00 -0500</pubDate>
         <link>
-        http://localhost:4000/military-service</link>
-        <guid isPermaLink="true">http://localhost:4000/military-service</guid>
+        /military-service</link>
+        <guid isPermaLink="true">/military-service</guid>
       </item>
       
     
@@ -151,8 +151,8 @@
         
         <pubDate>Thu, 21 Jul 2016 06:18:00 -0400</pubDate>
         <link>
-        http://localhost:4000/upatras</link>
-        <guid isPermaLink="true">http://localhost:4000/upatras</guid>
+        /upatras</link>
+        <guid isPermaLink="true">/upatras</guid>
       </item>
       
     
@@ -166,8 +166,8 @@
         
         <pubDate>Thu, 14 Jul 2016 04:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/ar-3d-maps</link>
-        <guid isPermaLink="true">http://localhost:4000/ar-3d-maps</guid>
+        /ar-3d-maps</link>
+        <guid isPermaLink="true">/ar-3d-maps</guid>
       </item>
       
     
@@ -181,8 +181,8 @@
         
         <pubDate>Fri, 11 Dec 2015 05:18:00 -0500</pubDate>
         <link>
-        http://localhost:4000/tetris-3d</link>
-        <guid isPermaLink="true">http://localhost:4000/tetris-3d</guid>
+        /tetris-3d</link>
+        <guid isPermaLink="true">/tetris-3d</guid>
       </item>
       
     
@@ -197,8 +197,8 @@
         
         <pubDate>Mon, 22 Jun 2015 02:00:00 -0400</pubDate>
         <link>
-        http://localhost:4000/mantis-intern</link>
-        <guid isPermaLink="true">http://localhost:4000/mantis-intern</guid>
+        /mantis-intern</link>
+        <guid isPermaLink="true">/mantis-intern</guid>
       </item>
       
     
@@ -212,8 +212,8 @@
         
         <pubDate>Wed, 11 Mar 2015 06:18:00 -0400</pubDate>
         <link>
-        http://localhost:4000/contours-pathfinding</link>
-        <guid isPermaLink="true">http://localhost:4000/contours-pathfinding</guid>
+        /contours-pathfinding</link>
+        <guid isPermaLink="true">/contours-pathfinding</guid>
       </item>
       
     
@@ -227,8 +227,8 @@
         
         <pubDate>Thu, 12 Feb 2015 05:18:00 -0500</pubDate>
         <link>
-        http://localhost:4000/cineraptor</link>
-        <guid isPermaLink="true">http://localhost:4000/cineraptor</guid>
+        /cineraptor</link>
+        <guid isPermaLink="true">/cineraptor</guid>
       </item>
       
     
@@ -242,8 +242,8 @@
         
         <pubDate>Sat, 04 Jan 2014 05:00:00 -0500</pubDate>
         <link>
-        http://localhost:4000/ancient-conquest</link>
-        <guid isPermaLink="true">http://localhost:4000/ancient-conquest</guid>
+        /ancient-conquest</link>
+        <guid isPermaLink="true">/ancient-conquest</guid>
       </item>
       
     
