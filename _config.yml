@@ -8,7 +8,7 @@ language: 'en-uk'
 baseurl: /
 
 # Website info
-title: Theo Panag
+title: TheoPanag
 description: Software Engineer - M.S. Georgia Tech
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
@@ -80,7 +80,7 @@ username: theopanag7
 repo: theopanag7.github.io
 branch: master
 relative_source: ../jasper2/
-destination: ../theo-website-build/
+destination: _site/ #../theo-website-build/
 production_url:  https://theopanag7.github.io/
 source_url:  https://github.com/theopanag7/
 
