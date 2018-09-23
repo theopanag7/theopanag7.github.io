@@ -1,28 +1,251 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>Software Engineer - M.S. Georgia Tech</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    http://localhost:4000</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Hey there, welcome!</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        http://localhost:4000/hello</link>
+        <guid isPermaLink="true">http://localhost:4000/hello</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>Head Teaching Assistant in Artificial Intelligence</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Mon, 20 Aug 2018 00:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/head-ta</link>
+        <guid isPermaLink="true">http://localhost:4000/head-ta</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Augmented Reality Intern</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 May 2018 05:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/amway</link>
+        <guid isPermaLink="true">http://localhost:4000/amway</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Head Mounted Displays in Warehouses</title>
+        
+          <description>&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;For the best part of my time here in Georgia Tech I have worked with &lt;a href=&quot;https://scholar.google.com/citations?user=qr8Vo9IAAAAJ&amp;hl=en&quot;&gt;Dr. Thad Starner&lt;/a&gt; as a researcher in Head Mounted Displays. Thad is a great mentor; he's a Georgia Tech Professor, the director of the Contextual Computing Group and the Technical Lead on Google Glass.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 May 2018 01:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/hud-rfid</link>
+        <guid isPermaLink="true">http://localhost:4000/hud-rfid</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Lattice Mesh Generation</title>
+        
+          <description>&lt;p&gt;The goal of this project was to generate a custom 3D lattice support structure in between two arbitrary surfaces. These single-mesh lattice structures have a variety of uses in the medical field. They can be 3D printed and inserted into the human body to support a vain or a damaged organ.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Dec 2017 05:00:00 -0500</pubDate>
+        <link>
+        http://localhost:4000/3d-lattice</link>
+        <guid isPermaLink="true">http://localhost:4000/3d-lattice</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hackathon 1st place</title>
+        
+          <description>&lt;p&gt;Our &lt;a href=&quot;https://github.com/theopanag7/card-cache&quot;&gt;Card-Cache application&lt;/a&gt; won the 1st prize in the Career App challenge in the Hack GT 2017 Hackathon.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 Oct 2017 06:18:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/hack-gt</link>
+        <guid isPermaLink="true">http://localhost:4000/hack-gt</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Georgia Tech</title>
+        
+          <description>&lt;p&gt;I’m currently pursuing a Master’s Degree in Computer Science. I will be graduating on May 2019.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 Aug 2017 06:18:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/georgia-tech</link>
+        <guid isPermaLink="true">http://localhost:4000/georgia-tech</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Arrival in the USA</title>
+        
+          <description>&lt;p&gt;On August 14th, I arrived to the United States, starting my MS degree in Computer Science at Georgia Tech.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 14 Aug 2017 03:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/arrival-USA</link>
+        <guid isPermaLink="true">http://localhost:4000/arrival-USA</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mandatory Military Service</title>
+        
+          <description>&lt;p&gt;I have completed my mandatory military service (9 months) in the Greek Army.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Nov 2016 05:18:00 -0500</pubDate>
+        <link>
+        http://localhost:4000/military-service</link>
+        <guid isPermaLink="true">http://localhost:4000/military-service</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>University of Patras</title>
+        
+          <description>&lt;p&gt;I graduated from the &lt;a href=&quot;http://www.upatras.gr/en&quot;&gt;University of Patras&lt;/a&gt; in 2016, with a B.E. in Electrical &amp;amp; Computer Engineering.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Jul 2016 06:18:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/upatras</link>
+        <guid isPermaLink="true">http://localhost:4000/upatras</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Augmented Reality 3D Maps</title>
+        
+          <description>&lt;p&gt;This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 14 Jul 2016 04:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/ar-3d-maps</link>
+        <guid isPermaLink="true">http://localhost:4000/ar-3d-maps</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>3D Tetris</title>
+        
+          <description>&lt;p&gt;“3D Tetris” is a 3D, Virtual reality remake of the classic video game Tetris. The goal of the project was to create a smooth, fun and easy to use version of Tetris for the Virtual Reality world.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 Dec 2015 05:18:00 -0500</pubDate>
+        <link>
+        http://localhost:4000/tetris-3d</link>
+        <guid isPermaLink="true">http://localhost:4000/tetris-3d</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Software Engineer Intern</title>
+        
+          <description>&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;During the Summers of 2015 and 2016 I interned with Mantis Informatics S.A. as a Software Engineer, developing Augmented Reality applications for Head Mounted Displays.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 22 Jun 2015 02:00:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/mantis-intern</link>
+        <guid isPermaLink="true">http://localhost:4000/mantis-intern</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Contour Map Triangulation</title>
+        
+          <description>&lt;p&gt;‘Contour Segmentation and Terrain Pathfinding‘, was a university project for the course ‘Computational Geometry’, taken in 2015. The project's goal was to triangulate a contour map and generate its 3D representation. Pathfinding Search Algorithms were then implemented on the generated terrain. It was developed solely on C++, using a vvr’s graphics framework, so no OpenGL.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 11 Mar 2015 06:18:00 -0400</pubDate>
+        <link>
+        http://localhost:4000/contours-pathfinding</link>
+        <guid isPermaLink="true">http://localhost:4000/contours-pathfinding</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>CineRaptor</title>
+        
+          <description>CineRaptor is a Social Media Platform for movie fans. Users can share, review, discover and archive movies they like, while at the same time, keep in touch with their friends (or cinephiles). CineRaptor is connected with the International Movie Database (IMDb), allowing users to be completely up to date with the latest movie releases. IMDb guarantees that a user can find any movie ever released.
+
+</description>
+        
+        <pubDate>Thu, 12 Feb 2015 05:18:00 -0500</pubDate>
+        <link>
+        http://localhost:4000/cineraptor</link>
+        <guid isPermaLink="true">http://localhost:4000/cineraptor</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ancient Conquest</title>
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://www.twcenter.net/forums/showthread.php?640167-Ancient-Conquest-v1-0-Full-Release&quot;&gt;Ancient Conquest&lt;/a&gt; is a game modification for SEGA’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Medieval_II:_Total_War&quot;&gt;Medieval II Total War&lt;/a&gt;, one of the most celebrated strategy games of all time. The original game is set in the Middle Ages, and the player’s goal, is to take the reins of a Medieval Kingdom and bring glory to its people.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 04 Jan 2014 05:00:00 -0500</pubDate>
+        <link>
+        http://localhost:4000/ancient-conquest</link>
+        <guid isPermaLink="true">http://localhost:4000/ancient-conquest</guid>
+      </item>
+      
+    
   </channel>
 </rss>
