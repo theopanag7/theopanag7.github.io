@@ -1,0 +1,25 @@
+<div class="social-links">
+        {% if site.email %}
+            <a class="social-link" href="mailto:{{ site.email }}">{% include email.html %}</a>
+        {% endif %}
+        {% if site.linkedin %}
+            <a class="social-link" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">{% include linkedin.html %}</a>
+        {% endif %}
+        {% if site.youtube %}
+            <a class="social-link" href="https://www.youtube.com/user/{{ site.youtube }}" target="_blank" rel="noopener">{% include youtube.html %}</a>
+        {% endif %}
+        {% if site.github %}
+            <a class="social-link" href="https://www.github.com/{{ site.github }}" target="_blank" rel="noopener">{% include github.html %}</a>
+        {% endif %}
+        {% if site.twitter %}
+            <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+        {% endif %}
+        {% if site.facebook %}
+            <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+        {% endif %}
+</div>
+<!--
+{% if site.resume %}
+    <a class="subscribe-button" href="#resume">Resume</a>
+{% endif %}
+-->

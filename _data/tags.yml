@@ -1,0 +1,28 @@
+projects:
+  name: projects
+  description: False #Some of the greatest words ever spoken.
+  cover: False #ssets/images/speeches.jpg
+work:
+  name: work
+  description: Jobs, Projects and Publications
+  cover: assets/images/blog-cover.jpg
+research:
+  name: research
+  description: False #A series of short stories that make you think.
+  cover: False #assets/images/fables.jpg
+work-experience:
+  name: work-experience
+  description: False
+  cover: False
+education:
+  name: education
+  description: False
+  cover: False
+life-events:
+  name: life-events
+  description: False
+  cover: False
+about:
+  name: about
+  description: False
+  cover: False

@@ -1,0 +1,43 @@
+---
+layout: post
+current: post
+cover:  assets/images/terrain_screen.jpg
+navigation: True
+title: Augmented Reality 3D Maps
+date: 2016-07-14 08:00:00
+tags: projects research work
+class: post-template
+subclass: 'post tag-getting-started'
+author: theo
+---
+
+<p>This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v6u0mlh-kBo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p>Users can scan a contour map with their phones and - in real-time - see its 3D representation in front of their eyes. This application can benefit a variety of users; from engineers to architects and from teachers to hikers. An engineer would be able to design and immediately visualize roads, dams or power lines on any terrain. A hiker would be able to accurately plan his route and a teacher to teach students how to study maps.</p>
+
+<p>Augmented Reality (AR) is a relatively new field of study, still taking its first steps- attempting to establish itself in the technological stage. Over the years, many different  AR applications have been designed, to test its technological limitations and showcase its huge potential. The goal of this project was to do exactly that.</p>
+
+<p><img src="assets/images/ar-3d-maps-1.png" alt="AR Maps"></p>
+<p>The project is essentially split into 3 major parts.</p>
+<ul>
+<li>First, we have to analyze the contour map picture. We have to extract all the height and feature information from a single image, and do so quickly so that the user experiences no delay. This is a challenge that touches on both Computer Vision and Computational Geometry, as we first have to locate the contours in the image and then re-build them, analyze them and sample them. This part is by far the most challenging and practically- the bottleneck of this project. Depending on the resolution of the camera and the quality of the map, such an analysis might not even be possible at all.</li>
+
+<li>The second part is the creation of the 3D terrain from the newly extracted map information. There are many ways to create a terrain, but in this project we did it with a simple grid. We used the information from the previous step to compute the elevations, the colors and the textures.</li>
+
+<li>Finally we used the map itself as an Augmented Reality marker, and then projected the generated terrain onto the map itself. For every frame we track the scene, locate the map, calculate the camera's location relative to the map, and then project the 3D model on top of it.</li>
+</ul>
+<p><img src="assets/images/ar-3d-maps-2.png" alt="AR Maps"></p>
+
+<p>We added an additional functionality to showcase the app’s future potential. We allowed the user to design roads, either through the app’s graphical interface, or by drawing them on the map itself with a marker. The App would recognize the drawn road and would add it immediately to the 3D scene. We hoped that this demo would give users a taste of the app’s potential.</p>
+
+<p><img src="assets/images/ar-3d-maps-3.png" alt="AR Maps"></p>
+<p><img src="assets/images/ar-3d-maps-4.png" alt="AR Maps"></p>
+
+<p>On the technical side, this project was designed as a two-part application. The mobile app would do the AR tracking and the 3D rendering and a desktop server would do the high-performance, time-consuming, computations for the image analysis and the terrain generation. The whole process, from snapshot to representation would take 2-7 seconds, and the user would experience no noticable lag.</p>
+
+<p>The two-parts of the application, as of now, communicate through Wi-Fi. The desktop app runs on C++, while the mobile runs on Java-Android. The rendering is done with OpenGL ES and the tracking with Vuforia. Both apps use the OpenCV library.</p>
+
+
+<p>‘Augmented Reality, 3D Maps’ started off as the Thesis for my Engineering Degree in the University of Patras. The project was later <a href="https://link.springer.com/chapter/10.1007/978-3-319-59126-1_40">published</a> in the Scandinavian Conference of Image Analysis ' 2017 with the title <i>“Generation and Authoring of Augmented Reality Terrains Through Real-Time Analysis of Map Images”</i>. The idea for this project, was to combine the fields of Augmented Reality, Computer Vision and Computer Graphics, to create a useful, robust Augmented Reality mobile application.</p>
