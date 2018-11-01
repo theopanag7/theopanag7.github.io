@@ -5,7 +5,7 @@
 *
 * Copyright 2017, Chris Coyier + Dave Rupert + Ghost Foundation
 * This is an unofficial release, ported by John O'Nolan
-* Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+* Credit to Thierry Koblentz - https://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
 * Released under the MIT license
 *
 */

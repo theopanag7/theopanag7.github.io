@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
     <description>Software Engineer - M.S. Georgia Tech</description>
     <link>
-    </link>
+    https://www.theopanag7.github.io/</link>
+    
+      
+      <item>
+        <title>Projects</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Wed, 31 Oct 2018 00:00:00 -0400</pubDate>
+        <link>
+        https://www.theopanag7.github.io//projects-main</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//projects-main</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Work Experience</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Mon, 29 Oct 2018 00:00:00 -0400</pubDate>
+        <link>
+        https://www.theopanag7.github.io//work-main</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//work-main</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Research</title>
+        
+          <description>&lt;div style=&quot;text-align: justify;&quot;&gt;
+
+</description>
+        
+        <pubDate>Sun, 28 Oct 2018 00:00:00 -0400</pubDate>
+        <link>
+        https://www.theopanag7.github.io//publications-main</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//publications-main</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Education</title>
+        
+          <description>&lt;p&gt;A brief overview of my Educational background so far- I am an E&amp;amp;CE graduate from Greece and am currently pursuing an MS CS degree in Georgia Tech.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 27 Oct 2018 00:00:00 -0400</pubDate>
+        <link>
+        https://www.theopanag7.github.io//education-main</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//education-main</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Education</title>
+        
+          <description>&lt;p&gt;I’m currently pursuing a Master’s Degree in Computer Science. I will be graduating on May 2019.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 Oct 2018 00:00:00 -0400</pubDate>
+        <link>
+        https://www.theopanag7.github.io//awards-main</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//awards-main</guid>
+      </item>
+      
     
       
       <item>
@@ -16,8 +90,8 @@
         
         <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
         <link>
-        /hello</link>
-        <guid isPermaLink="true">/hello</guid>
+        https://www.theopanag7.github.io//hello</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//hello</guid>
       </item>
       
     
@@ -31,8 +105,8 @@
         
         <pubDate>Mon, 20 Aug 2018 00:00:00 -0400</pubDate>
         <link>
-        /head-ta</link>
-        <guid isPermaLink="true">/head-ta</guid>
+        https://www.theopanag7.github.io//head-ta</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//head-ta</guid>
       </item>
       
     
@@ -46,8 +120,8 @@
         
         <pubDate>Mon, 14 May 2018 05:00:00 -0400</pubDate>
         <link>
-        /amway</link>
-        <guid isPermaLink="true">/amway</guid>
+        https://www.theopanag7.github.io//amway</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//amway</guid>
       </item>
       
     
@@ -62,8 +136,8 @@
         
         <pubDate>Fri, 11 May 2018 01:00:00 -0400</pubDate>
         <link>
-        /hud-rfid</link>
-        <guid isPermaLink="true">/hud-rfid</guid>
+        https://www.theopanag7.github.io//hud-rfid</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//hud-rfid</guid>
       </item>
       
     
@@ -77,8 +151,8 @@
         
         <pubDate>Wed, 06 Dec 2017 05:00:00 -0500</pubDate>
         <link>
-        /3d-lattice</link>
-        <guid isPermaLink="true">/3d-lattice</guid>
+        https://www.theopanag7.github.io//3d-lattice</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//3d-lattice</guid>
       </item>
       
     
@@ -92,8 +166,8 @@
         
         <pubDate>Fri, 13 Oct 2017 06:18:00 -0400</pubDate>
         <link>
-        /hack-gt</link>
-        <guid isPermaLink="true">/hack-gt</guid>
+        https://www.theopanag7.github.io//hack-gt</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//hack-gt</guid>
       </item>
       
     
@@ -107,8 +181,8 @@
         
         <pubDate>Mon, 14 Aug 2017 06:18:00 -0400</pubDate>
         <link>
-        /georgia-tech</link>
-        <guid isPermaLink="true">/georgia-tech</guid>
+        https://www.theopanag7.github.io//georgia-tech</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//georgia-tech</guid>
       </item>
       
     
@@ -121,8 +195,8 @@
         
         <pubDate>Mon, 14 Aug 2017 03:00:00 -0400</pubDate>
         <link>
-        /arrival-USA</link>
-        <guid isPermaLink="true">/arrival-USA</guid>
+        https://www.theopanag7.github.io//arrival-USA</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//arrival-USA</guid>
       </item>
       
     
@@ -136,8 +210,8 @@
         
         <pubDate>Mon, 07 Nov 2016 05:18:00 -0500</pubDate>
         <link>
-        /military-service</link>
-        <guid isPermaLink="true">/military-service</guid>
+        https://www.theopanag7.github.io//military-service</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//military-service</guid>
       </item>
       
     
@@ -145,14 +219,14 @@
       <item>
         <title>University of Patras</title>
         
-          <description>&lt;p&gt;I graduated from the &lt;a href=&quot;http://www.upatras.gr/en&quot;&gt;University of Patras&lt;/a&gt; in 2016, with a B.E. in Electrical &amp;amp; Computer Engineering.&lt;/p&gt;
+          <description>&lt;p&gt;I graduated from the &lt;a href=&quot;https://www.upatras.gr/en&quot;&gt;University of Patras&lt;/a&gt; in 2016, with a B.E. in Electrical &amp;amp; Computer Engineering.&lt;/p&gt;
 
 </description>
         
         <pubDate>Thu, 21 Jul 2016 06:18:00 -0400</pubDate>
         <link>
-        /upatras</link>
-        <guid isPermaLink="true">/upatras</guid>
+        https://www.theopanag7.github.io//upatras</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//upatras</guid>
       </item>
       
     
@@ -166,8 +240,8 @@
         
         <pubDate>Thu, 14 Jul 2016 04:00:00 -0400</pubDate>
         <link>
-        /ar-3d-maps</link>
-        <guid isPermaLink="true">/ar-3d-maps</guid>
+        https://www.theopanag7.github.io//ar-3d-maps</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//ar-3d-maps</guid>
       </item>
       
     
@@ -181,8 +255,8 @@
         
         <pubDate>Fri, 11 Dec 2015 05:18:00 -0500</pubDate>
         <link>
-        /tetris-3d</link>
-        <guid isPermaLink="true">/tetris-3d</guid>
+        https://www.theopanag7.github.io//tetris-3d</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//tetris-3d</guid>
       </item>
       
     
@@ -197,8 +271,8 @@
         
         <pubDate>Mon, 22 Jun 2015 02:00:00 -0400</pubDate>
         <link>
-        /mantis-intern</link>
-        <guid isPermaLink="true">/mantis-intern</guid>
+        https://www.theopanag7.github.io//mantis-intern</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//mantis-intern</guid>
       </item>
       
     
@@ -212,8 +286,8 @@
         
         <pubDate>Wed, 11 Mar 2015 06:18:00 -0400</pubDate>
         <link>
-        /contours-pathfinding</link>
-        <guid isPermaLink="true">/contours-pathfinding</guid>
+        https://www.theopanag7.github.io//contours-pathfinding</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//contours-pathfinding</guid>
       </item>
       
     
@@ -227,8 +301,36 @@
         
         <pubDate>Thu, 12 Feb 2015 05:18:00 -0500</pubDate>
         <link>
-        /cineraptor</link>
-        <guid isPermaLink="true">/cineraptor</guid>
+        https://www.theopanag7.github.io//cineraptor</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//cineraptor</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>RF-Pick Comparing Order Picking Using a HUD with Wearable RFID Verification to Traditional Pick Methods (ISWC - Best Paper)</title>
+        
+          <description>&lt;p&gt;In this paper we present a new paradigm for Order Picking using a Heads Up Display and two wearable RFID readers. This work was presented in ISWC, Singapore and received the Best Paper Award.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 04 Jan 2014 05:00:00 -0500</pubDate>
+        <link>
+        https://www.theopanag7.github.io//iswc-publication</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//iswc-publication</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Generation and Authoring of Augmented Reality Terrains Through Real-Time Analysis of Map Images (SCIA)</title>
+        
+          <description>&lt;p&gt;In this paper we present a novel method for real time 3D terrain creation and augmented reality rendering based on contour map images.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 04 Jan 2014 05:00:00 -0500</pubDate>
+        <link>
+        https://www.theopanag7.github.io//scia-publication</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//scia-publication</guid>
       </item>
       
     
@@ -236,14 +338,14 @@
       <item>
         <title>Ancient Conquest</title>
         
-          <description>&lt;p&gt;&lt;a href=&quot;http://www.twcenter.net/forums/showthread.php?640167-Ancient-Conquest-v1-0-Full-Release&quot;&gt;Ancient Conquest&lt;/a&gt; is a game modification for SEGA’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Medieval_II:_Total_War&quot;&gt;Medieval II Total War&lt;/a&gt;, one of the most celebrated strategy games of all time. The original game is set in the Middle Ages, and the player’s goal, is to take the reins of a Medieval Kingdom and bring glory to its people.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.twcenter.net/forums/showthread.php?640167-Ancient-Conquest-v1-0-Full-Release&quot;&gt;Ancient Conquest&lt;/a&gt; is a game modification for SEGA’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Medieval_II:_Total_War&quot;&gt;Medieval II Total War&lt;/a&gt;, one of the most celebrated strategy games of all time. The original game is set in the Middle Ages, and the player’s goal, is to take the reins of a Medieval Kingdom and bring glory to its people.&lt;/p&gt;
 
 </description>
         
         <pubDate>Sat, 04 Jan 2014 05:00:00 -0500</pubDate>
         <link>
-        /ancient-conquest</link>
-        <guid isPermaLink="true">/ancient-conquest</guid>
+        https://www.theopanag7.github.io//ancient-conquest</link>
+        <guid isPermaLink="true">https://www.theopanag7.github.io//ancient-conquest</guid>
       </item>
       
     
