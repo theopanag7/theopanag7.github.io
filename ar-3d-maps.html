@@ -32,7 +32,7 @@
     <meta property="og:site_name" content="TheoPanag" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Augmented Reality 3D Maps" />
-    <meta property="og:description" content="This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains. Users can scan a contour map with their phones and - in real-time - see its 3D representation in front of their eyes. This application can benefit a variety of users; from engineers to architects and from teachers" />
+    <meta property="og:description" content="This mobile application brings printed Maps into Augmented Reality. Scan a contour map with your phone and - in real-time - see its 3D representation in front of your eyes. You can move around the table, observe the terrain from various angles and even add your own content. This application" />
     <meta property="og:url" content="https://www.theopanag7.github.io//ar-3d-maps" />
     <meta property="og:image" content="https://www.theopanag7.github.io//assets/images/terrain_screen.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/false" />
@@ -42,7 +42,7 @@
     <meta property="article:tag" content="Projects" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Augmented Reality 3D Maps" />
-    <meta name="twitter:description" content="This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains. Users can scan a contour map with their phones and - in real-time - see its 3D representation in front of their eyes. This application can benefit a variety of users; from engineers to architects and from teachers" />
+    <meta name="twitter:description" content="This mobile application brings printed Maps into Augmented Reality. Scan a contour map with your phone and - in real-time - see its 3D representation in front of your eyes. You can move around the table, observe the terrain from various angles and even add your own content. This application" />
     <meta name="twitter:url" content="https://www.theopanag7.github.io//" />
     <meta name="twitter:image" content="https://www.theopanag7.github.io//assets/images/terrain_screen.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -74,7 +74,7 @@
         "@type": "WebPage",
         "@id": "https://www.theopanag7.github.io//ar-3d-maps"
     },
-    "description": "This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains. Users can scan a contour map with their phones and - in real-time - see its 3D representation in front of their eyes. This application can benefit a variety of users; from engineers to architects and from teachers"
+    "description": "This mobile application brings printed Maps into Augmented Reality. Scan a contour map with your phone and - in real-time - see its 3D representation in front of your eyes. You can move around the table, observe the terrain from various angles and even add your own content. This application"
 }
     </script>
 
@@ -266,33 +266,36 @@ into the {body} of the default.hbs template -->
                 <br>
 
                 <div class="kg-card-markdown">
-                    <p>This mobile application turns paper Contour Maps to 3D Augmented Reality Terrains.</p>
+                    <p>This mobile application brings printed Maps into Augmented Reality.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v6u0mlh-kBo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p>Users can scan a contour map with their phones and - in real-time - see its 3D representation in front of their eyes. This application can benefit a variety of users; from engineers to architects and from teachers to hikers. An engineer would be able to design and immediately visualize roads, dams or power lines on any terrain. A hiker would be able to accurately plan his route and a teacher to teach students how to study maps.</p>
+<p>Scan a contour map with your phone and - in real-time - see its 3D representation in front of your eyes. You can move around the table, observe the terrain from various angles and even add your own content.</p>
 
-<p>Augmented Reality (AR) is a relatively new field of study, still taking its first steps- attempting to establish itself in the technological stage. Over the years, many different  AR applications have been designed, to test its technological limitations and showcase its huge potential. The goal of this project was to do exactly that.</p>
+<p>This application can benefit a variety of users; from engineers to architects and from teachers to hikers. An engineer would be able to design and immediately visualize roads, dams or power lines on any terrain. A hiker would be able to accurately plan his route and a teacher to teach students how to study maps.</p>
 
 <p><img src="assets/images/ar-3d-maps-1.png" alt="AR Maps"></p>
 <p>The project is essentially split into 3 major parts.</p>
 <ul>
-<li>First, we have to analyze the contour map picture. We have to extract all the height and feature information from a single image, and do so quickly so that the user experiences no delay. This is a challenge that touches on both Computer Vision and Computational Geometry, as we first have to locate the contours in the image and then re-build them, analyze them and sample them. This part is by far the most challenging and practically- the bottleneck of this project. Depending on the resolution of the camera and the quality of the map, such an analysis might not even be possible at all.</li>
+<li>First we have to analyze the contour map picture. We have to extract all the height and feature information from a single image and do so quickly so that the user experiences no delay. This is a Computer Vision challenge, as we first have to locate the contours in the image, separate them if they're too close and finally convert them into polygons (sampling). </li>
 
-<li>The second part is the creation of the 3D terrain from the newly extracted map information. There are many ways to create a terrain, but in this project we did it with a simple grid. We used the information from the previous step to compute the elevations, the colors and the textures.</li>
+<li>Once we have the contours and their respective heights we proceed to generate the 3D terrain. We overlay the contours with a 2 dimensional grid and interpolate the elevation for every point, assigning a color along the way.</li>
 
-<li>Finally we used the map itself as an Augmented Reality marker, and then projected the generated terrain onto the map itself. For every frame we track the scene, locate the map, calculate the camera's location relative to the map, and then project the 3D model on top of it.</li>
+<li>We finally use the map itself as an Augmented Reality marker and project the generated terrain onto the map itself. For every frame after that we track the scene, locate the map, calculate the camera's location relative to the map, and then project the 3D model on top of it.</li>
 </ul>
+
+<p>The entire recognition-reconstruction pipeline takes less than 5 seconds, and can work even for the most challenging maps.</p>
+
 <p><img src="assets/images/ar-3d-maps-2.png" alt="AR Maps"></p>
 
-<p>We added an additional functionality to showcase the app’s future potential. We allowed the user to design roads, either through the app’s graphical interface, or by drawing them on the map itself with a marker. The App would recognize the drawn road and would add it immediately to the 3D scene. We hoped that this demo would give users a taste of the app’s potential.</p>
+<p>With the Augmented Reality terrain now generated, the user can start designing roads. Roads can be created either through the app’s graphical interface or by drawing them on the map itself with a marker. We considered this as a showcase to the app's potential, and can easily imagine other kinds of simulations appearing on the 3d terrain. </p>
 
 <p><img src="assets/images/ar-3d-maps-3.png" alt="AR Maps"></p>
 <p><img src="assets/images/ar-3d-maps-4.png" alt="AR Maps"></p>
 
-<p>On the technical side, this project was designed as a two-part application. The mobile app would do the AR tracking and the 3D rendering and a desktop server would do the high-performance, time-consuming, computations for the image analysis and the terrain generation. The whole process, from snapshot to representation would take 2-7 seconds, and the user would experience no noticable lag.</p>
+<p>On the technical side, this project was designed as a two-part application. The mobile app would do the AR tracking and the 3D rendering and a desktop server would do the high-performance, time-consuming computations for the image analysis and the terrain generation. The whole process, from snapshot to representation would take 2-7 seconds, and the user would experience no noticable lag.</p>
 
-<p>The two-parts of the application, as of now, communicate through Wi-Fi. The desktop app runs on C++, while the mobile runs on Java-Android. The rendering is done with OpenGL ES and the tracking with Vuforia. Both apps use the OpenCV library.</p>
+<p>The two-parts of the application, as of now, communicate through Wi-Fi. The desktop app runs on C++, while the mobile runs on Java-Android. The rendering is done with OpenGL ES and the tracking with the Vuforia AR SDK. Both apps use the OpenCV library.</p>
 
 
 <p>‘Augmented Reality, 3D Maps’ started off as the Thesis for my Engineering Degree in the University of Patras. The project was later <a href="https://link.springer.com/chapter/10.1007/978-3-319-59126-1_40">published</a> in the Scandinavian Conference of Image Analysis ' 2017 with the title <i>“Generation and Authoring of Augmented Reality Terrains Through Real-Time Analysis of Map Images”</i>. The idea for this project, was to combine the fields of Augmented Reality, Computer Vision and Computer Graphics, to create a useful, robust Augmented Reality mobile application.</p>
@@ -346,198 +349,12 @@ into the {body} of the default.hbs template -->
                 
                 
                 
-                    <article class="read-next-card"
-                        
-                            style="background-image: url(/assets/images/blog-cover.jpg)"
-                        
-                    >
-                        <header class="read-next-card-header">
-                            <small class="read-next-card-header-sitetitle">&mdash; TheoPanag &mdash;</small>
-                            
-                                <h3 class="read-next-card-header-title"><a href="/tag/projects/">Projects</a></h3>
-                            
-                        </header>
-                        <div class="read-next-divider"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
-</div>
-                        <div class="read-next-card-content">
-                            <ul>
-                                
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/hud-rfid">Head Mounted Displays in Warehouses</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/3d-lattice">Lattice Mesh Generation</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/tetris-3d">3D Tetris</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                            </ul>
-                        </div>
-                        <footer class="read-next-card-footer">
-                            <a href="/tag/projects/">
-                                
-                                    See all 6 posts  →
-                                
-                            </a>
-                        </footer>
-                    </article>
-                
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/upatras">
-                <div class="post-card-image" style="background-image: url(/assets/images/ece.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/upatras">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Education</span>
-                            
-                            
-                    
-
-                    <h2 class="post-card-title">University of Patras</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>I graduated from the [University of Patras](https://www.upatras.gr/en) in 2016, with a B.E. in Electrical & Computer Engineering. An Engineering Degree in Greece is a 5 year program with a 2 year specialization. My</p>
-                </section>
-            </a>
-            <!-- Uncomment to display author's name.
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/tp_faded.jpg" alt="Theo Panagiotopoulos" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/theo/">Theo Panagiotopoulos</a>
-                        </span>
-                    
-                
-            </footer>
-            -->
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/tetris-3d">
-                <div class="post-card-image" style="background-image: url(/assets/images/tetris-3d.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/tetris-3d">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Projects</span>
-                            
-                            
-                    
-
-                    <h2 class="post-card-title">3D Tetris</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>“3D Tetris” is a 3D, Virtual reality remake of the classic video game Tetris. The goal of the project was to create a smooth, fun and easy to use version of Tetris for</p>
-                </section>
-            </a>
-            <!-- Uncomment to display author's name.
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/tp_faded.jpg" alt="Theo Panagiotopoulos" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/theo/">Theo Panagiotopoulos</a>
-                        </span>
-                    
-                
-            </footer>
-        -->
-        </div>
-    </article>
-
             
 
         </div>

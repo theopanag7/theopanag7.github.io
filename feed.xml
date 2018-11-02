@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.theopanag7.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.theopanag7.github.io//" rel="alternate" type="text/html" /><updated>2018-11-01T20:35:51-04:00</updated><id>https://www.theopanag7.github.io//</id><title type="html">TheoPanag</title><subtitle>Software Engineer - M.S. Georgia Tech</subtitle><entry><title type="html">Projects</title><link href="https://www.theopanag7.github.io//projects-main" rel="alternate" type="text/html" title="Projects" /><published>2018-10-31T00:00:00-04:00</published><updated>2018-10-31T00:00:00-04:00</updated><id>https://www.theopanag7.github.io//projects-main</id><content type="html" xml:base="https://www.theopanag7.github.io//projects-main">&lt;div style=&quot;text-align: justify;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.theopanag7.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.theopanag7.github.io//" rel="alternate" type="text/html" /><updated>2018-11-01T22:58:11-04:00</updated><id>https://www.theopanag7.github.io//</id><title type="html">TheoPanag</title><subtitle>Software Engineer - M.S. Georgia Tech</subtitle><entry><title type="html">Projects</title><link href="https://www.theopanag7.github.io//projects-main" rel="alternate" type="text/html" title="Projects" /><published>2018-10-31T00:00:00-04:00</published><updated>2018-10-31T00:00:00-04:00</updated><id>https://www.theopanag7.github.io//projects-main</id><content type="html" xml:base="https://www.theopanag7.github.io//projects-main">&lt;div style=&quot;text-align: justify;&quot;&gt;
 
 &lt;p&gt;An overview of some of my projects outside of work- including: Augmented Reality apps, research projects, games, mods and even a website! &lt;/p&gt;
 
@@ -14,7 +14,7 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 
 &lt;p&gt;During Fall 2018, I work as a Head Teaching Assistant for Georgia Tech's graduate-level Artificial Intelligence course (CS6601).&lt;/p&gt;
 
-&lt;p&gt;I work closely with Dr. Thad Starner, inventor of Google Glass and Symbiotic AI pioneer, helping him prepare, run and improve the course. I lead a team of 13 Graduate Teaching Assistants and I am responsible for 590 graduate students (140 on-campus, 450 online).&lt;/p&gt;
+&lt;p&gt;I work closely with Dr. Thad Starner (inventor of Google Glass and Symbiotic AI pioneer) helping him prepare, run and improve the course. I lead a team of 13 Graduate Teaching Assistants and I am responsible for 590 graduate students (140 on-campus, 450 online).&lt;/p&gt;
 
 &lt;p&gt;I started as a Graduate Teaching Assistant in Spring 2018, and became a Head TA a semester later.&lt;/p&gt;
 
@@ -22,10 +22,11 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 
 &lt;h2 id=&quot;formattingtext&quot;&gt;Responsiblities&lt;/h2&gt;
 &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Creation of the Midterm and Final exam questions. The exams are around 30-40pp, are take-home, and test various different aspects of AI.&lt;/li&gt;
-&lt;li&gt;Development and maintenance of Python-based AI projects for the students. The projects are hosted on the cloud, are auto-graded and span various different subjects. &lt;/li&gt;
+&lt;li&gt;Creation of the Midterm and Final exam questions. The exams are around 30-40 pages long, are take-home, and test various different aspects of AI.&lt;/li&gt;
+&lt;li&gt;Development and maintenance of Python-based AI projects for the students. The projects are hosted on the cloud in Docker containers, are auto-graded and span various different subjects. &lt;/li&gt;
 &lt;li&gt;Coordination of student communications on various online platforms (Piazza, Slack, Google Hangouts etc.)&lt;/li&gt;
-&lt;li&gt;Substitute Teaching a class of 100+ students on AI research topics.&lt;/li&gt;
+&lt;li&gt;Substitute Teaching: I've conducted a total of 5 lectures to a class of 100+ students. The lectures spanned topics like Search, Bayes Nets and Hidden Markov Models.&lt;/li&gt;
+&lt;li&gt;Weekly office hours.&lt;/li&gt;
 &lt;li&gt;Updating course content with recent AI research papers, articles and videos.&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
@@ -35,7 +36,7 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 &lt;p&gt;&lt;i&gt;&lt;br&gt;
 - Game Playing&lt;br&gt;
 - Search&lt;br&gt;
-- Simulated Annealing&lt;br&gt;
+- Optimization Algorithms&lt;br&gt;
 - Constraint Satisfaction Problems&lt;br&gt;
 - Probability&lt;br&gt;
 - Bayes Nets&lt;br&gt;
@@ -49,7 +50,7 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 
 &lt;p&gt;During the Summer of 2018 I interned with Amway's R&amp;D, working on mobile Augmented Reality (AR) applications.&lt;/p&gt;
 
-&lt;p&gt;My job was to explore Augmented Reality as a technology and find possible use cases for Amway. To that end, I designed and developed 2 AR prototypes focused on interactive packaging.&lt;/p&gt;
+&lt;p&gt;My job was to explore Augmented Reality as a technology and find possible use cases for Amway. To that end, I designed and developed 2 AR prototypes focused on interactive packaging. In one of those apps, animated characters would jump out of their box and interact with the users.&lt;/p&gt;
 
 &lt;p&gt;My goal was to enhance the &lt;i&gt;Amway experience&lt;/i&gt; by adding a digital extension to Amway packages. I worked on both the social/promotional aspect of Augmented Reality as well as the immersive/entertaining one.&lt;/p&gt;
 
@@ -58,7 +59,7 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 
 &lt;h3 id=&quot;formattingtext&quot;&gt;Tools&lt;/h3&gt;
 &lt;br&gt;
-&lt;p&gt;I developed 2 &lt;b&gt;iOS&lt;/b&gt; applications, using &lt;b&gt;Obj-C&lt;/b&gt; (not Swift, because of library limitations). &lt;/p&gt;
+&lt;p&gt;I developed 2 &lt;b&gt;iOS&lt;/b&gt; applications, using &lt;b&gt;Obj-C&lt;/b&gt; (not Swift, because of Vuforia limitations). &lt;/p&gt;
 &lt;p&gt;The AR applications were built on the &lt;b&gt;Vuforia&lt;/b&gt; AR library, and on a combination of &lt;b&gt;OpenGL ES&lt;/b&gt; &amp; &lt;b&gt;Scenekit&lt;/b&gt; for 3D rendering. Additional tools like &lt;b&gt;Blender&lt;/b&gt; were also utilized.&lt;/p&gt;
 
 &lt;/div&gt;</content><author><name>Theo Panagiotopoulos</name></author><category term="work-experience" /><category term="work" /><summary type="html"></summary></entry><entry><title type="html">Head Mounted Displays in Warehouses</title><link href="https://www.theopanag7.github.io//hud-rfid" rel="alternate" type="text/html" title="Head Mounted Displays in Warehouses" /><published>2018-05-11T01:00:00-04:00</published><updated>2018-05-11T01:00:00-04:00</updated><id>https://www.theopanag7.github.io//hud-rfid</id><content type="html" xml:base="https://www.theopanag7.github.io//hud-rfid">&lt;p&gt;&lt;/p&gt;
@@ -91,7 +92,7 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
 
 &lt;p&gt;We conducted a 12 person user study in a model warehouse and found our method to be faster, less prone to errors and less taxing to the users than all methods currently used in the industry. &lt;/p&gt;
 
-&lt;p&gt;The work was published in the International Symbosium on Wearable Computers, ISWC '18, in Singapore, with the title- &lt;i&gt;&quot;RF-Pick: Comparing Order Picking Using a HUD with Wearable RFID Verification to Traditional Pick Methods&quot;&lt;/i&gt; and was awarded with the &lt;b&gt;Best Paper Award&lt;/b&gt;. &lt;/p&gt;
+&lt;p&gt;The work was published in the International Symbosium on Wearable Computers (ISWC '18), in Singapore, with the title- &lt;i&gt;&quot;RF-Pick: Comparing Order Picking Using a HUD with Wearable RFID Verification to Traditional Pick Methods&quot;&lt;/i&gt; and was awarded with the &lt;b&gt;Best Paper Award&lt;/b&gt;. &lt;/p&gt;
 
 
 &lt;h2 &gt;In-doors Navigation&lt;/h2&gt;
@@ -115,9 +116,13 @@ Most of my research is centered around Augmented Reality and Head Mounted Displa
   &lt;li&gt;Finally, we use the ball-pivoting algorithm to generate a single 3D mesh from all the primitives. This step is crucial since it allows 3D printing.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;We redesigned the Ball Pivoting algorithm, bringing some crucial steps of the algorithm to O(n) time complexity from O(n&lt;sup&gt;4&lt;/sup&gt;).&lt;/p&gt;
+
 &lt;p&gt;Project completed by me and Sandeep Bangalore at Georgia Tech, Atlanta.&lt;/p&gt;</content><author><name>Theo Panagiotopoulos</name></author><category term="projects" /><category term="work" /><summary type="html">The goal of this project was to generate a custom 3D lattice support structure in between two arbitrary surfaces. These single-mesh lattice structures have a variety of uses in the medical field. They can be 3D printed and inserted into the human body to support a vain or a damaged organ.</summary></entry><entry><title type="html">Georgia Tech</title><link href="https://www.theopanag7.github.io//georgia-tech" rel="alternate" type="text/html" title="Georgia Tech" /><published>2017-08-14T06:18:00-04:00</published><updated>2017-08-14T06:18:00-04:00</updated><id>https://www.theopanag7.github.io//georgia-tech</id><content type="html" xml:base="https://www.theopanag7.github.io//georgia-tech">&lt;p&gt;I’m currently pursuing a Master’s Degree in Computer Science. I will be graduating on May 2019.&lt;/p&gt;
 
-&lt;p&gt;I’m specializing in Computer Graphics and Vision and I am currently working with &lt;a href=&quot;https://scholar.google.com/citations?user=qr8Vo9IAAAAJ&amp;amp;hl=en&quot;&gt;Dr. Thad Starner&lt;/a&gt; both in &lt;a href=&quot;/hud-rfid&quot;&gt;Research&lt;/a&gt; and as a &lt;a href=&quot;/head-ta&quot;&gt;Head TA&lt;/a&gt; in the Artificial Intelligence course.&lt;/p&gt;</content><author><name>Theo Panagiotopoulos</name></author><category term="education" /><summary type="html">I’m currently pursuing a Master’s Degree in Computer Science. I will be graduating on May 2019.</summary></entry><entry><title type="html">University of Patras</title><link href="https://www.theopanag7.github.io//upatras" rel="alternate" type="text/html" title="University of Patras" /><published>2016-07-21T06:18:00-04:00</published><updated>2016-07-21T06:18:00-04:00</updated><id>https://www.theopanag7.github.io//upatras</id><content type="html" xml:base="https://www.theopanag7.github.io//upatras">&lt;p&gt;I graduated from the &lt;a href=&quot;https://www.upatras.gr/en&quot;&gt;University of Patras&lt;/a&gt; in 2016, with a B.E. in Electrical &amp;amp; Computer Engineering.&lt;/p&gt;
+&lt;p&gt;I’m specializing in Computer Graphics and 3D Vision and I am currently working with &lt;a href=&quot;https://scholar.google.com/citations?user=qr8Vo9IAAAAJ&amp;amp;hl=en&quot;&gt;Dr. Thad Starner&lt;/a&gt; both in &lt;a href=&quot;/hud-rfid&quot;&gt;Research&lt;/a&gt; and as a &lt;a href=&quot;/head-ta&quot;&gt;Head TA&lt;/a&gt; in the Artificial Intelligence course.&lt;/p&gt;
+
+&lt;p&gt;As of Fall 2018, I have a GPA of 4.0/4.0.&lt;/p&gt;</content><author><name>Theo Panagiotopoulos</name></author><category term="education" /><summary type="html">I’m currently pursuing a Master’s Degree in Computer Science. I will be graduating on May 2019.</summary></entry><entry><title type="html">University of Patras</title><link href="https://www.theopanag7.github.io//upatras" rel="alternate" type="text/html" title="University of Patras" /><published>2016-07-21T06:18:00-04:00</published><updated>2016-07-21T06:18:00-04:00</updated><id>https://www.theopanag7.github.io//upatras</id><content type="html" xml:base="https://www.theopanag7.github.io//upatras">&lt;p&gt;I graduated from the &lt;a href=&quot;https://www.upatras.gr/en&quot;&gt;University of Patras&lt;/a&gt; in 2016, with a B.E. in Electrical &amp;amp; Computer Engineering.&lt;/p&gt;
 
 &lt;p&gt;An Engineering Degree in Greece is a 5 year program with a 2 year specialization. My specialization was in Electronics &amp;amp; Computers and my &lt;a href=&quot;/ar-3d-maps&quot;&gt;Thesis was in Augmented Reality&lt;/a&gt;.&lt;/p&gt;
 
